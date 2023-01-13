@@ -14,7 +14,7 @@ class Client:
   print (conn.root.exposed_value()) 
   conn.root.exposed_delete(77)
   print("Posição do 17:", conn.root.exposed_find(17) if conn.root.exposed_find(17) != -1 else "NOT FOUND")
-  print("Posição do 18:", conn.root.exposed_find(17) if conn.root.exposed_find(17) != -1 else "NOT FOUND")
+  print("Posição do 18:", conn.root.exposed_find(18) if conn.root.exposed_find(18) != -1 else "NOT FOUND")
   print (conn.root.exposed_value())
   conn.root.exposed_sort()
   print (conn.root.exposed_value())
